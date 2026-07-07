@@ -1,0 +1,9 @@
+structlog>=24.0
+pydantic-settings>=2.0
+pydantic>=2.0
+haystack-ai>=2.30
+httpx>=0.25
+
+[dev]
+pytest>=7.0
+pytest-cov>=4.0

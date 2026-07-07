@@ -1,0 +1,15 @@
+rag-common
+haystack-ai>=2.30
+pydantic-settings>=2.0
+typer>=0.9
+fastapi>=0.100
+uvicorn[standard]>=0.20
+structlog>=24.0
+pdf2image>=1.16
+pytesseract>=0.3
+tree-sitter>=0.20
+tree-sitter-python>=0.20
+pyyaml>=6.0
+python-multipart>=0.0
+docling-haystack>=1.1.0
+mistral-haystack>=1.0.0

@@ -1,0 +1,7 @@
+Hello, world! This is a plain text file for testing the RAG parser module.
+It contains multiple lines of text.
+
+Line 2: The quick brown fox jumps over the lazy dog.
+Line 3: Testing numbers: 42, 3.14, -7, 1e6.
+Line 4: Special chars: @#$%^&*()_+-=[]{}|;':\",./<>?`~
+Line 5: Unicode: café résumé naïve 日本語 中文 русский.

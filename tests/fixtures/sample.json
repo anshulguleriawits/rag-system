@@ -1,0 +1,10 @@
+{
+  "name": "test-config",
+  "version": 1,
+  "enabled": true,
+  "nested": {
+    "key1": "value1",
+    "key2": 42
+  },
+  "tags": ["dev", "test", "prod"]
+}
