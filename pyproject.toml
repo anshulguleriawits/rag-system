@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "Production-grade document parsing module for RAG systems, built on Haystack"
 requires-python = ">=3.11"
 dependencies = [
-    "rag-common",
     "haystack-ai>=2.30",
     "pydantic-settings>=2.0",
     "typer>=0.9",
@@ -19,13 +18,8 @@ dependencies = [
     "python-multipart>=0.0",
     "docling-haystack>=1.1.0",
     "mistral-haystack>=1.0.0",
+    "httpx>=0.25",
 ]
 
 [tool.setuptools.packages.find]
-include = ["rag_parser*"]
-
-[tool.uv.sources]
-rag-common = { workspace = true }
-
-[tool.uv.workspace]
-members = ["packages/*"]
+include = ["common*", "components/parser*"]
