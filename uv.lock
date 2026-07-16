@@ -2249,7 +2249,7 @@ wheels = [
 ]
 
 [[package]]
-name = "rag-parser"
+name = "rag-platform"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

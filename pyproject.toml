@@ -1,7 +1,8 @@
 [project]
-name = "rag-parser"
+name = "rag-platform"
 version = "0.1.0"
-description = "Production-grade document parsing module for RAG systems, built on Haystack"
+description = "Production-grade RAG ingestion pipeline, built on Haystack"
+readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "haystack-ai>=2.30",
